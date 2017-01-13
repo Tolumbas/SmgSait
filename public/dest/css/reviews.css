@@ -1,0 +1,16 @@
+#reviews {
+  background-color: #88adb8; }
+  #reviews > div {
+    display: flex;
+    margin: 10px auto;
+    width: 80%;
+    padding: 20px; }
+    #reviews > div img {
+      flex-basis: content;
+      display: block; }
+    #reviews > div div {
+      border: 5px solid black;
+      border-radius: 10px;
+      flex-grow: 1;
+      margin-left: 10px;
+      padding: 10px; }

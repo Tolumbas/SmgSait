@@ -1,0 +1,4 @@
+"use strict";
+
+$("#menu").stick_in_parent();
+//# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9qcy90ZXN0LmpzIl0sIm5hbWVzIjpbIiQiLCJzdGlja19pbl9wYXJlbnQiXSwibWFwcGluZ3MiOiI7O0FBQUFBLEVBQUUsT0FBRixFQUFXQyxlQUFYIiwiZmlsZSI6ImFsbC5qcyIsInNvdXJjZXNDb250ZW50IjpbIiQoXCIjbWVudVwiKS5zdGlja19pbl9wYXJlbnQoKTsiXX0=

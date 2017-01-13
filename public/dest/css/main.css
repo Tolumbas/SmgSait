@@ -1,0 +1,49 @@
+div#header {
+  background: #BCA;
+  height: 300px;
+  border-bottom: 5px solid brown; }
+
+#menu {
+  height: 100px;
+  background-color: lightgray;
+  border-bottom: 5px solid gray; }
+
+#menu.is_stuck {
+  height: 50px; }
+
+#slider {
+  height: 700px;
+  background-color: lightblue; }
+
+#reviews {
+  background-color: #88adb8; }
+  #reviews > div {
+    display: flex;
+    margin: 10px auto;
+    width: 80%;
+    padding: 20px; }
+    #reviews > div img {
+      flex-basis: content;
+      display: block; }
+    #reviews > div div {
+      border: 5px solid black;
+      border-radius: 10px;
+      flex-grow: 1;
+      margin-left: 10px;
+      padding: 10px; }
+
+* {
+  box-sizing: border-box; }
+
+body {
+  font: 100% Helvetica, sans-serif;
+  height: 100%;
+  margin: 0;
+  background-color: #C9C9A9; }
+
+div.container > div {
+  padding: 10px 10%; }
+
+div.text {
+  height: 400px;
+  color: black; }

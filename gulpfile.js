@@ -16,12 +16,12 @@ gulp.task('babeldev',()=>{
 });
 
 gulp.task('html', function () {
-  gulp.src('./html/*.html')
+  gulp.src(['./html/*.html','./public/*.html'])
     .pipe(connect.reload());
 });
 
 gulp.task('sass', ()=>{
-	return gulp.src('./sass/*.scss')
+	return gulp.src('./sass/main.sass')
 		.pipe(sass().on('error', sass.logError))
 		.pipe(gulp.dest('./public/dest/css'))
 		.pipe(connect.reload());;
@@ -29,15 +29,15 @@ gulp.task('sass', ()=>{
 
 gulp.task('server',()=>{
 	connect.server({
-		root:"./html",
+		root:"./public",
 		livereload:true
 	});
 });
 
 gulp.task('watch', ()=> {
   gulp.watch(['./js/*.js'], ['babeldev']);
-  gulp.watch(['./sass/*.scss'], ['sass']);
-  gulp.watch(['./html/*.html'], ['html']);
+  gulp.watch(['./sass/*.sass'], ['sass']);
+  gulp.watch(['./html/*.html','./public/*.html'], ['html']);
 });
 
 gulp.task("default",['server','watch']);
