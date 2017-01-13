@@ -1,7 +1,13 @@
 #menu {
   height: 100px;
   background-color: lightgray;
-  border-bottom: 5px solid gray; }
-
-#menu.is_stuck {
-  height: 50px; }
+  border-bottom: 5px solid gray;
+  justify-content: flex-end;
+  display: flex; }
+  #menu > div {
+    margin: 0 20px;
+    height: 100%;
+    display: flex;
+    align-items: center; }
+  #menu.is_stuck {
+    height: 50px; }
