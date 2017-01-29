@@ -1,8 +1,36 @@
 
-$headerbg: #BCA;
-$size: 300px;
+$pattern: url("../../imgs/headerbg.jpg");
+$paisi: url("../../imgs/Paisi.jpg")
+$height: 500px;
+$bgopacity: 0.7;
 
 div#header 
-	background: $headerbg;
-	height: $size;
+	background: $pattern;
+	background-size: 100%;
+	height: $height;
 	border-bottom: 5px solid brown;
+	text-align: center;
+	position: relative;
+
+div#paisi
+	height: $height * 2;
+	overflow: hidden;
+	margin: 0 auto;
+	display: inline-block;
+
+	border-top-left-radius: 50%;
+	border-top-right-radius: 50%;
+	img
+		height: 50%;
+div#logo
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 30%;
+	background-color: rgba(255,255,255,0.8);
+	border-radius: 50%;
+	padding: 60px;
+	img
+		width: 100%;
+
+		
