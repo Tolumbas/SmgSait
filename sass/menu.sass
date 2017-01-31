@@ -1,14 +1,44 @@
+
+$height: 100px;
+$bgcolor: rgb(240,227,175);
+$buttonscolor: darkgreen;
+$yellow: rgb(233,171,12);
+$blue: rgb(64,102,147)
 #menu
-	height: 100px;
-	background-color: lightgray;
+	height: $height;
+	background-color: $bgcolor ;
 	border-bottom: 5px solid gray;
-	justify-content: flex-end;
+	justify-content: space-between;
+	align-items: center;
 	display: flex;
-	> div
+	padding: 20px;
+	#rightmenu
+		
 		margin: 0 20px;
 		height: 100%;
-		display: flex;
-		align-items: center;
+		div
+			padding: 10px;
+			display: inline-block;
+			font-weight: bolder;
+			font-size: 1.2em;
+			border: 5px solid black;
+			color: white;
+			border-radius: 10px;
+			background-color: $buttonscolor;
+			&:hover
+				background-color: $yellow;
+				cursor: pointer;
+	#home
+		font-size: 2em;
+		font-weight: bolder;
+		color: $blue;
+		margin: 30px;
+		&:hover
+			color: darkblue;
+			cursor: pointer;
 	
 	&.is_stuck
 		height: 50px;
+		padding: 0 20px;
+		
+

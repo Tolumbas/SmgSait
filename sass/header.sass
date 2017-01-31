@@ -2,35 +2,60 @@
 $pattern: url("../../imgs/headerbg.jpg");
 $paisi: url("../../imgs/Paisi.jpg")
 $height: 500px;
-$bgopacity: 0.7;
+$logobgcolor: rgba(255,255,255,0.9);
+$border: 5px solid rgb(233,171,12);
 
 div#header 
 	background: $pattern;
 	background-size: 100%;
 	height: $height;
-	border-bottom: 5px solid brown;
+	border-bottom: $border;
 	text-align: center;
 	position: relative;
+	overflow: hidden;
+	@media screen and (max-width: 500px)
+		height: $height/1.5;
 
 div#paisi
-	height: $height * 2;
+	height: $height * 3;
 	overflow: hidden;
 	margin: 0 auto;
 	display: inline-block;
 
 	border-top-left-radius: 50%;
 	border-top-right-radius: 50%;
+	border: $border;
+	border-bottom: 0;
 	img
 		height: 50%;
+
+	@media screen and (max-width: 750px)
+		position: absolute;
+		left: 0;
+		width: 100%;
+	@media screen and (max-width: 500px)
+		height: $height * 3 / 1.5;
 div#logo
 	position: absolute;
 	top: 0;
 	left: 0;
-	width: 30%;
-	background-color: rgba(255,255,255,0.8);
+	width: 25%;
+	display: inline-block;
+	background-color: $logobgcolor;
 	border-radius: 50%;
-	padding: 60px;
+	border: $border;
+	padding: 3%;
+	text-align: center;
 	img
 		width: 100%;
+		display: block;
+		position: relative;
+		left: 50%;
+		transform: translateX(-50%);
+	img#text
+		margin-top: 10%;
+		width: 110%;
+	@media screen and (max-width: 500px)
+		width: 50%;
 
 		
