@@ -5,6 +5,7 @@
 	<link rel="stylesheet" type="text/css" href="dest/css/main.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="https://fonts.googleapis.com/css?family=Jura" rel="stylesheet">
+	<link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet"> <!-- 3 KB -->
 	<title></title>
 </head>
 <body>
@@ -24,6 +25,7 @@
 				СМГ "Паисий Хилендарски"
 			</div>
 			<div id="rightmenu">
+				<canvas id="hamburger"></canvas>
 				<div>Новини</div>
 				<div>За училището</div>
 				<div>Обучение</div>
@@ -31,38 +33,48 @@
 				<div>Състезания</div>
 			</div>
 		</div>
-		<div id="slider">
-			<img src="/imgs/smgpano.jpg">
-			<h1 id="title">
-				Софийска Математическа Гимназия "Паисий Хилендарски"
-			</h1>
+		<div class="fotorama" data-width="100%" data-height="700px" data-loop="true" data-autoplay="true" data-swipe="true"  data-fit="cover" data-click = "false" data-nav="false">
+			<div data-img="/imgs/smgpano.jpg">
+				<div>
+					<h1> СМГ "Паисий Хилендарски" навършва годишнина</h1>
+				</div>
+				<div class="button">Прочети повече!</div>
+			</div>
+			<div data-img="/imgs/slider2.jpg">
+				<div>
+					<h1>
+						Печелим награда от мобилтел!
+					</h1>
+				</div>
+				<div class="button">Прочети повече!</div>
+			</div>
 		</div>
+
 		<div id="history">
-		<h1>История на училището</h1>
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		proident, sunt in culpa qui officia deserunt mollit anim id est laborsum.
+		<!-- <h1>История на училището</h1> -->
+		<div class="text">
+			"СМГ не е само сграда или държавна институция. СМГ не е просто школа за съзтезатели математици. Не. СМГ е общество с култура и традиции, с шантави учители и още по-шантави ученици. Приятели. И за мен точно в това му е чара." - Антон
+		</div>
+		
 		</div>
 		<div id="reviews">
 			<div>
-				<img src="imgs/hexagon.svg">
-				<div>Отзиви ...</div>
+				<div class="shape"></div>
+				<div class="text">Отзиви ...</div>
 			</div>			
 			<div>
-				<img src="imgs/hexagon.svg">
-				<div>Отзиви ...</div>
+				<div class="shape"></div>
+				<div class="text">Отзиви ...</div>
 			</div>			
 			<div>
-				<img src="imgs/hexagon.svg">
-				<div>Отзиви ...</div>
+				<div class="shape"></div>
+				<div class="text">Отзиви ...</div>
 			</div>
 		</div>
 	</div>
 	<script src="libraries/jquery.min.js"></script>
 	<script src="libraries/jquery.sticky-kit.min.js"></script>
+	<script src="libraries/fotorama.js"></script>
 	<script src="dest/all.js"></script>
 </body>
 </html>

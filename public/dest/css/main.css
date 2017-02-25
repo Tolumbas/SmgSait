@@ -1,17 +1,17 @@
 div#header {
   background: url("../../imgs/headerbg.jpg");
   background-size: 100%;
-  height: 500px;
+  height: 300px;
   border-bottom: 5px solid #e9ab0c;
   text-align: center;
   position: relative;
   overflow: hidden; }
   @media screen and (max-width: 500px) {
     div#header {
-      height: 333.33333px; } }
+      height: 200px; } }
 
 div#paisi {
-  height: 1500px;
+  height: 900px;
   overflow: hidden;
   margin: 0 auto;
   display: inline-block;
@@ -28,7 +28,7 @@ div#paisi {
       width: 100%; } }
   @media screen and (max-width: 500px) {
     div#paisi {
-      height: 1000px; } }
+      height: 600px; } }
 
 div#logo {
   position: absolute;
@@ -61,23 +61,47 @@ div#logo {
   justify-content: space-between;
   align-items: center;
   display: flex;
-  padding: 20px; }
+  padding: 20px;
+  z-index: 1; }
   #menu #rightmenu {
+    white-space: nowrap;
+    overflow: hidden;
     margin: 0 20px;
-    height: 100%; }
+    height: 100%;
+    flex: 6;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; }
+    #menu #rightmenu canvas#hamburger {
+      display: none;
+      border: 3px solid black;
+      border-radius: 5px; }
+      #menu #rightmenu canvas#hamburger:hover {
+        border-color: blue; }
     #menu #rightmenu div {
       padding: 10px;
+      margin: 0 5px;
       display: inline-block;
       font-weight: bolder;
       font-size: 1.2em;
-      border: 5px solid black;
       color: white;
+      border: none;
       border-radius: 10px;
       background-color: darkgreen; }
       #menu #rightmenu div:hover {
         background-color: #e9ab0c;
         cursor: pointer; }
+    @media screen and (max-width: 918px) {
+      #menu #rightmenu {
+        flex: 1; }
+        #menu #rightmenu div {
+          display: none; }
+        #menu #rightmenu canvas#hamburger {
+          display: block;
+          width: 100px;
+          height: 100%; } }
   #menu #home {
+    flex: 3;
     font-size: 2em;
     font-weight: bolder;
     color: #406693;
@@ -85,35 +109,38 @@ div#logo {
     #menu #home:hover {
       color: darkblue;
       cursor: pointer; }
+    @media screen and (max-width: 1200px) {
+      #menu #home {
+        margin: 0; } }
   #menu.is_stuck {
     height: 50px;
     padding: 0 20px; }
 
-#slider {
-  height: 700px;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  position: relative;
-  overflow: hidden; }
-  #slider #title {
-    color: black;
-    flex: auto;
-    font-size: 3em;
-    padding-top: 40px;
-    margin: 0; }
-  #slider img {
+.fotorama {
+  padding-top: 20px;
+  background-color: #FFD;
+  padding-bottom: 0; }
+  .fotorama h1 {
+    background-color: rgba(255, 255, 255, 0.7);
+    display: inline-block;
+    padding: 20px; }
+  .fotorama div.button {
+    display: inline-block;
     position: absolute;
-    z-index: -1;
-    opacity: 0.5;
-    height: 700px; }
+    right: 30px;
+    bottom: 30px;
+    border: 1px solid white;
+    color: white;
+    border-radius: 10px;
+    padding: 30px;
+    font-size: 2em;
+    background-color: darkgreen; }
 
 #history {
   font-size: 1.5em; }
-  #history h1 {
-    margin-left: 10px; }
+  #history .text {
+    padding: 50px;
+    font-style: italic; }
 
 #reviews {
   background-color: #88adb8; }
@@ -122,10 +149,13 @@ div#logo {
     margin: 10px auto;
     width: 80%;
     padding: 20px; }
-    #reviews > div img {
-      flex-basis: content;
-      display: block; }
-    #reviews > div div {
+    #reviews > div .shape {
+      width: 100px;
+      height: 100px;
+      background-color: darkgreen;
+      -webkit-clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+      clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%); }
+    #reviews > div div.text {
       border: 5px solid black;
       border-radius: 10px;
       flex-grow: 1;

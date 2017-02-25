@@ -3,7 +3,10 @@ $height: 100px;
 $bgcolor: rgb(240,227,175);
 $buttonscolor: darkgreen;
 $yellow: rgb(233,171,12);
-$blue: rgb(64,102,147)
+$blue: rgb(64,102,147);
+$buttonborder: none;
+
+
 #menu
 	height: $height;
 	background-color: $bgcolor ;
@@ -12,23 +15,50 @@ $blue: rgb(64,102,147)
 	align-items: center;
 	display: flex;
 	padding: 20px;
+	z-index: 1;
 	#rightmenu
-		
+		white-space: nowrap;
+		overflow: hidden;
 		margin: 0 20px;
 		height: 100%;
+		flex: 6;
+
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+
+		canvas#hamburger
+			display: none;
+			border: 3px solid black; 
+			border-radius: 5px;
+			&:hover
+				border-color: blue;
 		div
 			padding: 10px;
+			margin: 0 5px;
 			display: inline-block;
 			font-weight: bolder;
 			font-size: 1.2em;
-			border: 5px solid black;
 			color: white;
+			border: $buttonborder;
 			border-radius: 10px;
 			background-color: $buttonscolor;
 			&:hover
 				background-color: $yellow;
 				cursor: pointer;
+
+		@media screen and (max-width: 918px)
+			flex: 1;
+
+			div
+				display: none;
+			canvas#hamburger
+				display: block;
+				width: 100px;
+				height: 100%;
+
 	#home
+		flex: 3;
 		font-size: 2em;
 		font-weight: bolder;
 		color: $blue;
@@ -36,6 +66,8 @@ $blue: rgb(64,102,147)
 		&:hover
 			color: darkblue;
 			cursor: pointer;
+		@media screen and (max-width: 1200px)
+			margin: 0;
 	
 	&.is_stuck
 		height: 50px;

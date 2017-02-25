@@ -9,6 +9,7 @@ gulp.task('babeldev',()=>{
     return gulp.src('js/*.js')
     	.pipe(sourcemaps.init())
 	    	.pipe(babel({presets: ['es2015']}))
+	    	 .on('error', console.error.bind(console))
 		    .pipe(concat('all.js'))
         .pipe(sourcemaps.write())
         .pipe(gulp.dest('./public/dest/'))

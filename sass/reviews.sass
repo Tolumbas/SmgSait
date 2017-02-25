@@ -12,10 +12,14 @@
 	// 	display: inline-block;
 
 	> div
-		img
-			flex-basis: content;
-			display: block;
-		div
+		.shape
+			width: 100px;
+			height: 100px
+			background-color: darkgreen
+
+			-webkit-clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+			clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+		div.text
 			border: 5px solid black;
 			border-radius: 10px;
 			flex-grow: 1;
