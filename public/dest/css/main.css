@@ -137,13 +137,22 @@ div#logo {
     background-color: darkgreen; }
 
 #history {
-  font-size: 1.5em; }
+  font-size: 1.5em;
+  display: inline-block;
+  width: 50%; }
   #history .text {
-    padding: 50px;
-    font-style: italic; }
+    padding: 50px; }
+    #history .text b {
+      color: darkgreen; }
 
 #reviews {
-  background-color: #88adb8; }
+  background-color: #B9C9A9;
+  display: inline-block;
+  width: 50%;
+  margin-left: -5px;
+  vertical-align: top;
+  padding: 50px;
+  font-size: 1.5em; }
   #reviews > div {
     display: flex;
     margin: 10px auto;
@@ -174,3 +183,8 @@ body {
 
 div.container > div {
   padding: 0 10%; }
+
+div.combiner {
+  display: flex; }
+  div.combiner > div {
+    flex: 1; }
