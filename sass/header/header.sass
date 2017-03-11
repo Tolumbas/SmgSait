@@ -1,0 +1,25 @@
+
+$border: 5px solid rgb(233,171,12);
+
+@import "header/logo.sass";
+@import "header/paisii.sass";
+
+$pattern: url("../../imgs/headerbg.jpg");
+$paisi: url("../../imgs/Paisi.jpg")
+$height: 300px;
+
+div#header 
+	background: $pattern;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	webkit
+	height: $height;
+	//border-bottom: 20px solid #f0e3af;
+	//border-image: url("../../imgs/border.jpg") 20% round;
+	text-align: center;
+	position: relative;
+	overflow: hidden;
+	@media screen and (max-width: 500px)
+		height: $height/1.5;

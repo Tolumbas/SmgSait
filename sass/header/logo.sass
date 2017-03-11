@@ -1,0 +1,33 @@
+
+$logobgcolor: rgba(255,255,255,0.9);
+$paddingontheimage: 1%;
+
+div#logo
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 25%;
+	height: 100%;
+	display: flex;
+	background-color: $logobgcolor;
+	border-radius: 50%;
+	border: $border;
+	padding: $paddingontheimage;
+	justify-content: center;
+	align-items: center;
+	@media screen and (max-width: 900px)
+		width: 40%;
+		height: 50%
+		align-items: flex-start;
+		img
+			width: auto !important;
+			min-width: 0;
+			height: 100%;
+	img
+		width: 100%;
+		display: block;
+		position: relative;
+	// img#text
+	// 	margin-top: 10%;
+	// 	width: 110%;
+	

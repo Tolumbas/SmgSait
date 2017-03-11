@@ -1,0 +1,26 @@
+
+$height: 100px;
+$bgcolor: rgb(240,227,175);
+$yellow: rgb(233,171,12);
+$blue: rgb(64,102,147);
+
+
+@import "homebutton"
+@import "menubuttons"
+@import "hamburger"
+@import "hamburgerBreak"
+@import "rightmenu"
+
+#menu
+	height: $height;
+	background-color: $bgcolor ;
+	border-bottom: 5px solid gray;
+	justify-content: space-between;
+	align-items: center;
+	display: flex;
+	padding: 20px;
+	z-index: 1;
+
+	&.is_stuck
+		height: 50px;
+		padding: 0 20px;

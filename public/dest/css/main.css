@@ -47,7 +47,10 @@ div#paisi {
 
 div#header {
   background: url("../../imgs/headerbg.jpg");
-  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   height: 300px;
   text-align: center;
   position: relative;
