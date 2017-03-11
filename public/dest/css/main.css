@@ -56,6 +56,63 @@ div#header {
     div#header {
       height: 200px; } }
 
+#home {
+  flex: 3;
+  font-size: 2em;
+  font-weight: bolder;
+  color: #406693;
+  margin: 30px; }
+  #home:hover {
+    color: darkblue;
+    cursor: pointer; }
+  @media screen and (max-width: 1200px) {
+    #home {
+      margin: 0; } }
+  @media screen and (max-width: 800px) {
+    #home {
+      font-size: 1.5em;
+      flex: 1; } }
+
+div.menubutton {
+  padding: 10px;
+  margin: 0 5px;
+  display: inline-block;
+  font-weight: bolder;
+  font-size: 1.2em;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  background-color: darkgreen; }
+  div.menubutton:hover {
+    background-color: #e9ab0c;
+    cursor: pointer; }
+
+canvas#hamburger {
+  display: none;
+  border: 3px solid black;
+  border-radius: 5px; }
+  canvas#hamburger:hover {
+    border-color: #406693; }
+
+@media screen and (max-width: 918px) {
+  div.menubutton {
+    display: none; }
+  canvas#hamburger {
+    display: block;
+    width: 100px;
+    height: 100%; }
+  div#rightmenu {
+    flex: 1; } }
+
+#rightmenu {
+  white-space: nowrap;
+  overflow: hidden;
+  height: 100%;
+  flex: 6;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center; }
+
 #menu {
   height: 100px;
   background-color: #f0e3af;
@@ -65,55 +122,6 @@ div#header {
   display: flex;
   padding: 20px;
   z-index: 1; }
-  #menu #rightmenu {
-    white-space: nowrap;
-    overflow: hidden;
-    margin: 0 20px;
-    height: 100%;
-    flex: 6;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center; }
-    #menu #rightmenu canvas#hamburger {
-      display: none;
-      border: 3px solid black;
-      border-radius: 5px; }
-      #menu #rightmenu canvas#hamburger:hover {
-        border-color: blue; }
-    #menu #rightmenu div {
-      padding: 10px;
-      margin: 0 5px;
-      display: inline-block;
-      font-weight: bolder;
-      font-size: 1.2em;
-      color: white;
-      border: none;
-      border-radius: 10px;
-      background-color: darkgreen; }
-      #menu #rightmenu div:hover {
-        background-color: #e9ab0c;
-        cursor: pointer; }
-    @media screen and (max-width: 918px) {
-      #menu #rightmenu {
-        flex: 1; }
-        #menu #rightmenu div {
-          display: none; }
-        #menu #rightmenu canvas#hamburger {
-          display: block;
-          width: 100px;
-          height: 100%; } }
-  #menu #home {
-    flex: 3;
-    font-size: 2em;
-    font-weight: bolder;
-    color: #406693;
-    margin: 30px; }
-    #menu #home:hover {
-      color: darkblue;
-      cursor: pointer; }
-    @media screen and (max-width: 1200px) {
-      #menu #home {
-        margin: 0; } }
   #menu.is_stuck {
     height: 50px;
     padding: 0 20px; }
