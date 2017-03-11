@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
 				"button",
 				"buttonborder"
 			],
@@ -18,10 +26,6 @@
 			[
 				"op",
 				"op\topacity"
-			],
-			[
-				"font",
-				"font-size"
 			],
 			[
 				"back",
@@ -107,55 +111,8 @@
 			"file": "public/index.html",
 			"settings":
 			{
-				"buffer_size": 2358,
+				"buffer_size": 2941,
 				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "js/test.js",
-			"settings":
-			{
-				"buffer_size": 705,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "gulpfile.js",
-			"settings":
-			{
-				"buffer_size": 1194,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "sass/slider.sass",
-			"settings":
-			{
-				"buffer_size": 411,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "sass/menu.sass",
-			"settings":
-			{
-				"buffer_size": 1308,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "#reviews\n\tbackground-color: rgb(136,173,184);\n\n\t// div::before\n\t// \tcontent: '';\n\t// \twidth: 30px;\n\t// \theight: 30px;\n\t// \ttop: 7px;\n\t// \tmargin-right: 20px;\n\t// \tbackground-color: coral;\n\t// \tposition: relative;\n\t// \tdisplay: inline-block;\n\n\t> div\n\t\t.shape\n\t\t\twidth: 100px;\n\t\t\theight: 100px\n\t\t\tbackground-color: darkgreen\n\t\t\t-webkit-clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);\n\t\t\tclip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);\n\t\tdiv.text\n\t\t\tborder: 5px solid black;\n\t\t\tborder-radius: 10px;\n\t\t\tflex-grow: 1;\n\t\t\tmargin-left: 10px;\n\t\t\tpadding: 10px;\n\n\t\tdisplay: flex;\n\t\tmargin: 10px auto;\n\t\twidth: 80%;\n\t\tpadding: 20px;\n",
-			"file": "sass/reviews.sass",
-			"file_size": 692,
-			"file_write_time": 131324836696133418,
-			"settings":
-			{
-				"buffer_size": 659,
 				"line_ending": "Windows"
 			}
 		},
@@ -163,7 +120,16 @@
 			"file": "sass/header.sass",
 			"settings":
 			{
-				"buffer_size": 1156,
+				"buffer_size": 1259,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "sass/reviews.sass",
+			"settings":
+			{
+				"buffer_size": 681,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -172,7 +138,16 @@
 			"file": "sass/history.sass",
 			"settings":
 			{
-				"buffer_size": 94,
+				"buffer_size": 225,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "sass/main.sass",
+			"settings":
+			{
+				"buffer_size": 596,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -242,13 +217,17 @@
 	],
 	"file_history":
 	[
-		"/C/Users/Feiro/Desktop/Work/SMG sait/public/imgs/hexagon.svg",
+		"/C/Users/Feiro/Downloads/Hidden.Figures.2016.DVDSCR.XVID-FrangoAssado/iNFO.nfo",
 		"/C/Users/Feiro/Desktop/Work/SMG sait/sass/main.sass",
+		"/C/Users/Feiro/Desktop/Work/SMG sait/sass/history.sass",
+		"/C/Users/Feiro/Desktop/Work/SMG sait/sass/header.sass",
+		"/C/Users/Feiro/Desktop/Work/SMG sait/sass/slider.sass",
+		"/C/Users/Feiro/Desktop/Work/SMG sait/sass/menu.sass",
 		"/C/Users/Feiro/Desktop/Work/SMG sait/gulpfile.js",
+		"/C/Users/Feiro/Desktop/Work/SMG sait/js/test.js",
+		"/C/Users/Feiro/Desktop/Work/SMG sait/public/imgs/hexagon.svg",
 		"/C/Users/Feiro/Desktop/zadachi.txt",
 		"/C/Users/Feiro/dev.pem",
-		"/C/Users/Feiro/Desktop/Work/SMG sait/sass/header.sass",
-		"/C/Users/Feiro/Desktop/Work/SMG sait/sass/menu.sass",
 		"/C/Users/Feiro/Desktop/Work/SMG sait/.gitignore",
 		"/C/Users/Feiro/Desktop/Work/Chat/server.js",
 		"/C/Users/Feiro/Desktop/Work/Chat/index.html",
@@ -261,9 +240,7 @@
 		"/C/Users/Feiro/Desktop/Work/Cube Maze/three.min.js",
 		"/C/Users/Feiro/Desktop/Work/SMG sait/sublime.sublime-workspace",
 		"/C/Users/Feiro/Desktop/Work/SMG sait/sass/reviews.sass",
-		"/C/Users/Feiro/Desktop/Work/SMG sait/sass/slider.sass",
 		"/C/Users/Feiro/Desktop/Work/SMG sait/package.json",
-		"/C/Users/Feiro/Desktop/Work/SMG sait/js/test.js",
 		"/C/Users/Feiro/Desktop/Work/SMG sait/public/index.html",
 		"/C/Users/Feiro/Desktop/Work/SMG sait/sass/header.scss",
 		"/C/Users/Feiro/Desktop/Work/SMG sait/sass/main.scss",
@@ -323,7 +300,7 @@
 	],
 	"find":
 	{
-		"height": 28.0
+		"height": 26.0
 	},
 	"find_in_files":
 	{
@@ -337,6 +314,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"\t\t\t\t\t<div class=\"shape\"></div>",
+			"flex",
 			"200px",
 			"Отзив",
 			"<div>Отзиви ...</div>",
@@ -462,9 +441,7 @@
 			"audio",
 			"0",
 			"angle",
-			"now",
-			"Date",
-			"velocity"
+			"now"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -497,23 +474,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2358,
+						"buffer_size": 2941,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1922,
-								1922
-							],
-							[
-								2013,
-								2013
-							],
-							[
-								2104,
-								2104
+								522,
+								522
 							]
 						],
 						"settings":
@@ -523,117 +492,33 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1560.0,
+						"translation.y": 180.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "js/test.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 705,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								642,
-								642
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 360.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "gulpfile.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1194,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								839,
-								839
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 56.0,
-						"translation.y": 6.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
+					"stack_index": 4,
 					"type": "text"
 				}
 			]
 		},
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
-					"buffer": 3,
-					"file": "sass/slider.sass",
+					"buffer": 1,
+					"file": "sass/header.sass",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 411,
+						"buffer_size": 1259,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								58,
-								58
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
-						},
-						"translation.x": 15.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "sass/menu.sass",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1308,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1076,
-								1076
+								1032,
+								1032
 							]
 						],
 						"settings":
@@ -642,56 +527,27 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 120.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "sass/reviews.sass",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 659,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								322,
-								322
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 594.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
-					"file": "sass/header.sass",
+					"buffer": 2,
+					"file": "sass/reviews.sass",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1156,
+						"buffer_size": 681,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								312,
-								312
+								628,
+								603
 							]
 						],
 						"settings":
@@ -700,27 +556,27 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 120.0,
+						"translation.y": 108.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 3,
 					"file": "sass/history.sass",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 94,
+						"buffer_size": 225,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								94,
-								94
+								33,
+								33
 							]
 						],
 						"settings":
@@ -731,7 +587,36 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "sass/main.sass",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 596,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								303,
+								303
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -739,7 +624,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 28.0
+		"height": 26.0
 	},
 	"input":
 	{
@@ -787,7 +672,7 @@
 	"project": "",
 	"replace":
 	{
-		"height": 52.0
+		"height": 48.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -825,7 +710,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 271.0,
+	"side_bar_width": 198.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

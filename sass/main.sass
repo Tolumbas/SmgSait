@@ -1,4 +1,4 @@
-@import "header";
+@import "header/header.sass";
 @import "menu";
 @import "slider"
 @import "history"
@@ -7,6 +7,14 @@
 
 $font-stack: Helvetica, sans-serif;
 $primary-color: #C9C9A9;
+
+@font-face 
+    font-family: minion;
+    src: url(../../libraries/minion.tff);
+@font-face 
+    font-family: coval;
+    src: url(../../libraries/coval.otf);
+
 
 *
 	box-sizing: border-box;
@@ -23,5 +31,7 @@ div.container
 		padding: 0 10%;
 div.combiner
 	display: flex;
+	padding: 0 !important;
 	> div
+		// padding: 0 10%;
 		flex: 1

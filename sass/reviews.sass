@@ -5,23 +5,27 @@
 	margin-left: -5px;
 	vertical-align: top;
 	padding: 50px;
+	padding-right: 10%;
 	// padding-top: 30px;
 	font-size: 1.5em;
 	> div
 		.shape
+			float: left;
 			width: 100px;
-			height: 100px
+			height: 100px;
+			display: inline-block;
 			background-color: darkgreen
 			-webkit-clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
 			clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
 		div.text
-			border: 5px solid black;
+			//border: 5px solid black;
+			float: left;
 			border-radius: 10px;
 			flex-grow: 1;
 			margin-left: 10px;
 			padding: 10px;
 
-		display: flex;
+		display: inline-block;
 		margin: 10px auto;
-		width: 80%;
+		width: 100%;
 		padding: 20px;

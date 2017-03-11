@@ -37,7 +37,7 @@ gulp.task('server',()=>{
 
 gulp.task('watch', ()=> {
   gulp.watch(['./js/*.js'], ['babeldev']);
-  gulp.watch(['./sass/*.sass'], ['sass']);
+  gulp.watch(['./sass/**/*.sass'], ['sass']);
   gulp.watch(['./html/*.html','./public/*.html'], ['html']);
 });
 
