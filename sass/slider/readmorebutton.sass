@@ -1,0 +1,20 @@
+div.readmorebutton
+		display: inline-block
+		position: absolute
+		right: 30px
+		bottom: 30px
+		border: 1px solid white
+		color: white
+		border-radius: 10px
+		padding: 25px
+		font-size: 2em
+		background-color: $darkgreen
+		transition-duration: 0.3s;
+		cursor: pointer
+		&:hover
+			transform: scale(1.1)
+		@media screen and (max-width: 600px)
+			font-size: 1em
+			padding: 10px
+			right: 10px;
+			bottom: 10px;

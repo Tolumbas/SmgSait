@@ -129,25 +129,43 @@ canvas#hamburger {
     height: 50px;
     padding: 0 20px; }
 
+.fotorama h1 {
+  background-color: rgba(255, 255, 255, 0.7);
+  display: inline-block;
+  padding: 20px; }
+  @media screen and (max-width: 600px) {
+    .fotorama h1 {
+      padding: 10px;
+      font-size: 1em; } }
+
+div.readmorebutton {
+  display: inline-block;
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+  border: 1px solid white;
+  color: white;
+  border-radius: 10px;
+  padding: 25px;
+  font-size: 2em;
+  background-color: darkgreen;
+  transition-duration: 0.3s;
+  cursor: pointer; }
+  div.readmorebutton:hover {
+    transform: scale(1.1); }
+  @media screen and (max-width: 600px) {
+    div.readmorebutton {
+      font-size: 1em;
+      padding: 10px;
+      right: 10px;
+      bottom: 10px; } }
+
 .fotorama {
-  padding-top: 20px;
-  background-color: #FFD;
-  padding-bottom: 0; }
-  .fotorama h1 {
-    background-color: rgba(255, 255, 255, 0.7);
-    display: inline-block;
-    padding: 20px; }
-  .fotorama div.button {
-    display: inline-block;
-    position: absolute;
-    right: 30px;
-    bottom: 30px;
-    border: 1px solid white;
-    color: white;
-    border-radius: 10px;
-    padding: 30px;
-    font-size: 2em;
-    background-color: darkgreen; }
+  padding: 0 !important;
+  background-color: #FFD; }
+  @media screen and (min-width: 1300px) {
+    .fotorama {
+      padding: 0 10% 0 10% !important; } }
 
 #history * {
   font-family: coval; }
