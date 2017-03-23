@@ -169,7 +169,8 @@ div.readmorebutton {
 
 #calendar {
   position: relative;
-  left: 31px; }
+  left: 31px;
+  padding-bottom: 40px; }
   #calendar .title {
     text-align: center; }
   #calendar #month {
@@ -177,7 +178,7 @@ div.readmorebutton {
     margin-top: 20px;
     border-bottom: 5px solid #e9ab0c;
     direction: rtl;
-    font-size: 1.2em; }
+    font-size: 1.4em; }
   #calendar #holder {
     position: absolute;
     height: 100%;
@@ -193,7 +194,7 @@ div.readmorebutton {
     align-items: center;
     flex-shrink: 0;
     right: 40px;
-    background-color: white;
+    background-color: #FFD;
     border-radius: 100px; }
   #calendar .responcivecontainer {
     display: flex;
@@ -205,7 +206,8 @@ div.readmorebutton {
     font-size: 1.5em;
     display: inline-block;
     padding-right: 10px;
-    max-width: 700px; }
+    max-width: 700px;
+    margin-left: 10px; }
   #calendar #date {
     display: inline-block;
     padding: 20px;
