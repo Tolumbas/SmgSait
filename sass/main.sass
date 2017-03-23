@@ -1,12 +1,11 @@
 @import "header/header.sass";
 @import "menu/menu.sass";
 @import "slider/slider.sass"
-@import "history"
-@import "reviews"
+@import "calendar/calendar.sass"
 
 
 $font-stack: Helvetica, sans-serif;
-$primary-color: #C9C9A9;
+$primary-color: #A1A179;
 
 @font-face 
     font-family: minion;
@@ -24,7 +23,8 @@ body
 	margin : 0;
 	background-color: $primary-color;
 
-div.container 
+div.container
+	overflow: hidden;
 	> div
 		padding: 0 10%;
 div.combiner

@@ -9,70 +9,85 @@
 	<title></title>
 </head>
 <body>
-	<div class="container">
-		<div id="header">
-			<div id="paisi">
-				<img src="imgs/Paisi.jpg">
-			</div>
-			<div id="logo">
-				<!-- <img id="text" src="imgs/smg_logo_text.png"> -->
-				<img src="imgs/smg_logo.png">
-			</div>
+<div class="container">
+	<div id="header">
+		<div id="paisi">
+			<img src="imgs/Paisi.jpg">
+		</div>
+		<div id="logo">
+			<!-- <img id="text" src="imgs/smg_logo_text.png"> -->
+			<img src="imgs/smg_logo.png">
+		</div>
 
+	</div>
+	<div id="menu">
+		<div id="home">
+			СМГ "Паисий Хилендарски"
 		</div>
-		<div id="menu">
-			<div id="home">
-				СМГ "Паисий Хилендарски"
-			</div>
-			<div id="rightmenu">
-				<canvas id="hamburger"></canvas>
-				<div class="menubutton">Новини</div>
-				<div class="menubutton">За училището</div>
-				<div class="menubutton">Обучение</div>
-				<div class="menubutton">Прием</div>
-				<div class="menubutton">Състезания</div>
-			</div>
-		</div>
-		<div class="fotorama" data-width="100%"  data-ratio="776/460" data-loop="true" data-autoplay="true" data-swipe="true"  data-fit="cover" data-click = "false" data-nav="false">
-			<div data-img="/imgs/smgpano.jpg">
-				<div>
-					<h1> СМГ "Паисий Хилендарски" навършва годишнина</h1>
-				</div>
-				<div class="readmorebutton">Прочети повече!</div>
-			</div>
-			<div data-img="/imgs/slider2.jpg">
-				<div>
-					<h1>
-						Печелим награда от мобилтел!
-					</h1>
-				</div>
-				<div class="readmorebutton">Прочети повече!</div>
-			</div>
-		</div>
-		<div class="combiner">
-			<div id="events">
-				<h1>
-					Скорошни събития
-				</h1>
-			</div>
-			<div id="reviews">
-			<h1>Отзиви</h1>
-				<div>
-					<div class="text">СМГ не е само училище за математици, а училище за хора!
-					</div>
-				</div>			
-				<div>
-					<div class="text">Най-доброто училище!</div>
-				</div>			
-				<div>
-					<div class="text">Любим учител - Бахчеванов</div>
-				</div>
-			</div>
+		<div id="rightmenu">
+			<canvas id="hamburger"></canvas>
+			<div class="menubutton">Новини</div>
+			<div class="menubutton">За училището</div>
+			<div class="menubutton">Обучение</div>
+			<div class="menubutton">Прием</div>
+			<div class="menubutton">Състезания</div>
 		</div>
 	</div>
-	<script src="libraries/jquery.min.js"></script>
-	<script src="libraries/jquery.sticky-kit.min.js"></script>
-	<script src="libraries/fotorama.js"></script>
-	<script src="dest/all.js"></script>
+	<div class="fotorama" data-width="100%"  data-ratio="776/460" data-loop="true" data-autoplay="true" data-swipe="true"  data-fit="cover" data-click = "false" data-nav="false">
+		<div data-img="/imgs/smgpano.jpg">
+			<div>
+				<h1> СМГ "Паисий Хилендарски" навършва годишнина</h1>
+			</div>
+			<div class="readmorebutton">Прочети повече!</div>
+		</div>
+		<div data-img="/imgs/slider2.jpg">
+			<div>
+				<h1>
+					Печелим награда от мобилтел!
+				</h1>
+			</div>
+			<div class="readmorebutton">Прочети повече!</div>
+		</div>
+	</div>
+	<div id="calendar">
+		<h1 class="title">Календар</h1>
+		<div id="holder"></div>
+		<div id="month">Декември</div>
+		<div id="event">
+			<div id="date">22</div>
+			<div class="responcivecontainer">
+				<div id="duration">22PM - 03AM</div>
+				<span class="text">Мален ще решава задачи за ФМИ.</span>
+			</div>
+		</div>
+		<div id="event">
+			<div id="date">25</div>
+			<div class="responcivecontainer">
+				<div id="duration">18:30PM - 19PM</div>
+				<span class="text">Родителска среща за 8,9,10,11 и 12 клас asd asd asd asd asd asd asd asd asd asd asd asd asd asd asd asd asd asd asd asd asd asd asd asd asd asd asd asd asd asd asdasd asd asd asd asd asd asd asdasd asd asd asd asd asd asd asd</span>
+			</div>
+		</div>
+		<div id="event">
+			<div id="date">25</div>
+			<div class="responcivecontainer">
+			<div id="duration">18:30PM - 19PM</div>
+			<span class="text">Родителска среща за 8,9,10,11 и 12 клас</span>
+			</div>
+		</div>
+		<div id="month">Януари</div>
+		<div id="event">
+			<div id="date">25</div>
+			<div class="responcivecontainer">
+				<div id="duration">18:30PM - 19PM</div>
+				<span class="text">Родителска среща за 8,9,10,11 и 12 клас</span>
+			</div>
+		</div>
+
+	</div>
+</div>
+<script src="libraries/jquery.min.js"></script>
+<script src="libraries/jquery.sticky-kit.min.js"></script>
+<script src="libraries/fotorama.js"></script>
+<script src="dest/all.js"></script>
 </body>
 </html>

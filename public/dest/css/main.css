@@ -126,7 +126,7 @@ canvas#hamburger {
   padding: 20px;
   z-index: 1; }
   #menu.is_stuck {
-    height: 50px;
+    height: 70px;
     padding: 0 20px; }
 
 .fotorama h1 {
@@ -167,50 +167,73 @@ div.readmorebutton {
     .fotorama {
       padding: 0 10% 0 10% !important; } }
 
-#history * {
-  font-family: coval; }
-
-#history h1 {
-  font-family: 'Jura', sans-serif; }
-
-#history {
-  font-size: 1.5em;
-  display: inline-block;
-  padding-left: 10%;
-  width: 50%; }
-  #history .text {
-    padding: 50px; }
-    #history .text b {
-      color: darkgreen; }
-
-#reviews {
-  background-color: #B9C9A9;
-  display: inline-block;
-  width: 50%;
-  margin-left: -5px;
-  vertical-align: top;
-  padding: 50px;
-  padding-right: 10%;
-  font-size: 1.5em; }
-  #reviews > div {
-    display: inline-block;
-    margin: 10px auto;
+#calendar {
+  position: relative;
+  left: 31px; }
+  #calendar .title {
+    text-align: center; }
+  #calendar #month {
     width: 100%;
-    padding: 20px; }
-    #reviews > div .shape {
-      float: left;
-      width: 100px;
-      height: 100px;
-      display: inline-block;
-      background-color: darkgreen;
-      -webkit-clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
-      clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%); }
-    #reviews > div div.text {
-      float: left;
-      border-radius: 10px;
-      flex-grow: 1;
-      margin-left: 10px;
-      padding: 10px; }
+    margin-top: 20px;
+    border-bottom: 5px solid #e9ab0c;
+    direction: rtl;
+    font-size: 1.2em; }
+  #calendar #holder {
+    position: absolute;
+    height: 100%;
+    background-color: darkgreen;
+    display: inline-block;
+    width: 10px;
+    border-radius: 5px; }
+  #calendar #event {
+    width: 100%;
+    margin-top: 30px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    right: 40px;
+    background-color: white;
+    border-radius: 100px; }
+  #calendar .responcivecontainer {
+    display: flex;
+    flex: auto;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px 10px; }
+  #calendar .text {
+    font-size: 1.5em;
+    display: inline-block;
+    padding-right: 10px;
+    max-width: 700px; }
+  #calendar #date {
+    display: inline-block;
+    padding: 20px;
+    border-radius: 100px;
+    background-color: white;
+    z-index: 1;
+    font-size: 2em;
+    color: darkblue;
+    font-weight: bolder;
+    height: 100%;
+    border: 5px solid darkgreen; }
+  #calendar #duration {
+    display: flex;
+    align-items: center;
+    background-color: #FFF;
+    height: 40px;
+    white-space: nowrap;
+    border: 2px solid darkgreen;
+    padding: 5px;
+    color: darkblue; }
+  @media screen and (max-width: 425px) {
+    #calendar {
+      padding: 0 5%;
+      left: 0; }
+      #calendar #holder {
+        display: none; }
+      #calendar #event {
+        right: 0; } }
 
 @font-face {
   font-family: minion;
@@ -228,10 +251,12 @@ body {
   font: 100% Helvetica, sans-serif;
   height: 100%;
   margin: 0;
-  background-color: #C9C9A9; }
+  background-color: #A1A179; }
 
-div.container > div {
-  padding: 0 10%; }
+div.container {
+  overflow: hidden; }
+  div.container > div {
+    padding: 0 10%; }
 
 div.combiner {
   display: flex;

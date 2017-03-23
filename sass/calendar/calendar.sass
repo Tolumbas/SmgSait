@@ -1,0 +1,71 @@
+$darkergreen: darken(darkgreen, 10%);
+
+#calendar
+	position: relative;
+	left: 31px;
+	.title
+		text-align: center;
+	#month
+		width: 100%;
+		margin-top: 20px;
+		border-bottom: 5px solid rgb(233,171,12);;
+		direction: rtl;
+		font-size: 1.2em
+	#holder
+		position: absolute;
+		height: 100%;
+		background-color: darkgreen;
+		display: inline-block;
+		width: 10px;
+		border-radius: 5px;
+	#event
+		width: 100%;
+		margin-top: 30px;
+		position: relative;
+		display: flex;
+		align-items: center
+		flex-shrink: 0;
+		right: 40px;
+		background-color: white;
+		border-radius: 100px;
+		//border: 2px solid darkgreen;
+	.responcivecontainer
+		display: flex
+		flex: auto
+		align-items: center;
+		flex-wrap: wrap;
+		margin: 10px 10px;
+	.text
+		font-size: 1.5em;
+		display: inline-block
+		padding-right: 10px;
+		max-width: 700px;
+
+	#date
+		display: inline-block;
+		padding: 20px;
+		border-radius: 100px;
+		background-color: white;
+		z-index: 1;
+		font-size: 2em;
+		color: darkblue;
+		font-weight: bolder;
+		height: 100%;
+		border: 5px solid darkgreen;
+	#duration
+		display: flex;
+		align-items: center;
+		background-color: #FFF;
+		height: 40px;
+		white-space: nowrap
+		border: 2px solid darkgreen
+		padding: 5px
+		color: darkblue;
+	@media screen and (max-width: 425px)
+		padding: 0 5%;
+		left: 0;
+		#holder
+			display: none;
+		#event
+			right: 0
+

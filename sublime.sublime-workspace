@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"imp",
+				"important"
+			],
+			[
+				"transition",
+				"transition-duration"
+			],
+			[
 				"font",
 				"font-size"
 			],
@@ -112,71 +120,22 @@
 	"buffers":
 	[
 		{
+			"contents": "<!DOCTYPE html>\n<html>\n<head>\n\t<link rel=\"shortcut icon\" type=\"image/ico\" href=\"imgs/favicon.ico\"/>\n\t<link rel=\"stylesheet\" type=\"text/css\" href=\"dest/css/main.css\">\n\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n\t<link href=\"https://fonts.googleapis.com/css?family=Jura\" rel=\"stylesheet\">\n\t<link  href=\"http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css\" rel=\"stylesheet\"> <!-- 3 KB -->\n\t<title></title>\n</head>\n<body>\n\t<div class=\"container\">\n\t\t<div id=\"header\">\n\t\t\t<div id=\"paisi\">\n\t\t\t\t<img src=\"imgs/Paisi.jpg\">\n\t\t\t</div>\n\t\t\t<div id=\"logo\">\n\t\t\t\t<!-- <img id=\"text\" src=\"imgs/smg_logo_text.png\"> -->\n\t\t\t\t<img src=\"imgs/smg_logo.png\">\n\t\t\t</div>\n\n\t\t</div>\n\t\t<div id=\"menu\">\n\t\t\t<div id=\"home\">\n\t\t\t\tСМГ \"Паисий Хилендарски\"\n\t\t\t</div>\n\t\t\t<div id=\"rightmenu\">\n\t\t\t\t<canvas id=\"hamburger\"></canvas>\n\t\t\t\t<div class=\"menubutton\">Новини</div>\n\t\t\t\t<div class=\"menubutton\">За училището</div>\n\t\t\t\t<div class=\"menubutton\">Обучение</div>\n\t\t\t\t<div class=\"menubutton\">Прием</div>\n\t\t\t\t<div class=\"menubutton\">Състезания</div>\n\t\t\t</div>\n\t\t</div>\n\t\t<div class=\"fotorama\" data-width=\"100%\"  data-ratio=\"776/460\" data-loop=\"true\" data-autoplay=\"true\" data-swipe=\"true\"  data-fit=\"cover\" data-click = \"false\" data-nav=\"false\">\n\t\t\t<div data-img=\"/imgs/smgpano.jpg\">\n\t\t\t\t<div>\n\t\t\t\t\t<h1> СМГ \"Паисий Хилендарски\" навършва годишнина</h1>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"readmorebutton\">Прочети повече!</div>\n\t\t\t</div>\n\t\t\t<div data-img=\"/imgs/slider2.jpg\">\n\t\t\t\t<div>\n\t\t\t\t\t<h1>\n\t\t\t\t\t\tПечелим награда от мобилтел!\n\t\t\t\t\t</h1>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"readmorebutton\">Прочети повече!</div>\n\t\t\t</div>\n\t\t</div>\n\t\t<div class=\"combiner\">\n\t\t\t<div id=\"events\">\n\t\t\t\t<h1>\n\t\t\t\t\tСкорошни събития\n\t\t\t\t</h1>\n\t\t\t\t<div id=\"event\">\n\t\t\t\t\t\n\t\t\t\t</div>\n\n\t\t\t</div>\n\t\t\t<div id=\"reviews\">\n\t\t\t<h1>Отзиви</h1>\n\t\t\t\t<div>\n\t\t\t\t\t<div class=\"text\">СМГ не е само училище за математици, а училище за хора!\n\t\t\t\t\t</div>\n\t\t\t\t</div>\t\t\t\n\t\t\t\t<div>\n\t\t\t\t\t<div class=\"text\">Най-доброто училище!</div>\n\t\t\t\t</div>\t\t\t\n\t\t\t\t<div>\n\t\t\t\t\t<div class=\"text\">Любим учител - Бахчеванов</div>\n\t\t\t\t</div> \n\t\t\t</div>\n\t\t</div>\n\t</div>\n\t<script src=\"libraries/jquery.min.js\"></script>\n\t<script src=\"libraries/jquery.sticky-kit.min.js\"></script>\n\t<script src=\"libraries/fotorama.js\"></script>\n\t<script src=\"dest/all.js\"></script>\n</body>\n</html>",
 			"file": "public/index.html",
+			"file_size": 2621,
+			"file_write_time": 131344958895988129,
 			"settings":
 			{
-				"buffer_size": 3036,
+				"buffer_size": 2292,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "sass/menu.sass",
+			"file": "sass/main.sass",
 			"settings":
 			{
-				"buffer_size": 1308,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "sass/menu/menu.sass",
-			"settings":
-			{
-				"buffer_size": 439,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "sass/header/header.sass",
-			"settings":
-			{
-				"buffer_size": 586,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "sass/header/paisii.sass",
-			"settings":
-			{
-				"buffer_size": 342,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "sass/menu/menubuttons.sass",
-			"settings":
-			{
-				"buffer_size": 317,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "sass/menu/homebutton.sass",
-			"settings":
-			{
-				"buffer_size": 251,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "sass/menu/rightmenu.sass",
-			"settings":
-			{
-				"buffer_size": 142,
+				"buffer_size": 628,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -240,30 +199,30 @@
 	[
 		"/C/Users/Feiro/Desktop/Work/SMG sait",
 		"/C/Users/Feiro/Desktop/Work/SMG sait/js",
-		"/C/Users/Feiro/Desktop/Work/SMG sait/public",
-		"/C/Users/Feiro/Desktop/Work/SMG sait/public/imgs",
-		"/C/Users/Feiro/Desktop/Work/SMG sait/sass",
-		"/C/Users/Feiro/Desktop/Work/SMG sait/sass/header",
-		"/C/Users/Feiro/Desktop/Work/SMG sait/sass/menu"
+		"/C/Users/Feiro/Desktop/Work/SMG sait/sass"
 	],
 	"file_history":
 	[
+		"/C/Users/Feiro/Desktop/Work/SMG sait/gulpfile.js",
+		"/C/Users/Feiro/Desktop/Work/SMG sait/sass/slider/header.sass",
+		"/C/Users/Feiro/Desktop/Work/SMG sait/sass/slider/readmorebutton.sass",
+		"/C/Users/Feiro/Desktop/Work/SMG sait/sass/slider/slider.sass",
+		"/C/Users/Feiro/Desktop/Work/SMG sait/sass/slider.sass",
+		"/C/Users/Feiro/Desktop/Work/SMG sait/sass/menu/rightmenu.sass",
+		"/C/Users/Feiro/Desktop/Work/SMG sait/sass/menu/homebutton.sass",
+		"/C/Users/Feiro/Desktop/Work/SMG sait/sass/menu/menubuttons.sass",
+		"/C/Users/Feiro/Desktop/Work/SMG sait/sass/menu/menu.sass",
+		"/C/Users/Feiro/Desktop/Work/SMG sait/sass/header/header.sass",
+		"/C/Users/Feiro/Desktop/Work/SMG sait/sass/header/paisii.sass",
 		"/C/Users/Feiro/Desktop/Work/SMG sait/sass/menu/hamburger.sass",
 		"/C/Users/Feiro/Desktop/Work/SMG sait/sass/menu/hamburgerBreak.sass",
-		"/C/Users/Feiro/Desktop/Work/SMG sait/sass/menu/menubuttons.sass",
-		"/C/Users/Feiro/Desktop/Work/SMG sait/sass/menu/rightmenu.sass",
 		"/C/Users/Feiro/Desktop/Work/SMG sait/sass/main.sass",
-		"/C/Users/Feiro/Desktop/Work/SMG sait/sass/menu/homebutton.sass",
 		"/C/Users/Feiro/Desktop/Work/SMG sait/sass/menu.sass",
 		"/C/Users/Feiro/Desktop/Work/SMG sait/sass/history.sass",
 		"/C/Users/Feiro/Desktop/Work/SMG sait/sass/reviews.sass",
-		"/C/Users/Feiro/Desktop/Work/SMG sait/sass/header/paisii.sass",
 		"/C/Users/Feiro/Desktop/Work/SMG sait/sass/header/logo.sass",
-		"/C/Users/Feiro/Desktop/Work/SMG sait/sass/header/header.sass",
 		"/C/Users/Feiro/Desktop/Work/SMG sait/sass/header.sass",
-		"/C/Users/Feiro/Desktop/Work/SMG sait/gulpfile.js",
 		"/C/Users/Feiro/Downloads/Hidden.Figures.2016.DVDSCR.XVID-FrangoAssado/iNFO.nfo",
-		"/C/Users/Feiro/Desktop/Work/SMG sait/sass/slider.sass",
 		"/C/Users/Feiro/Desktop/Work/SMG sait/js/test.js",
 		"/C/Users/Feiro/Desktop/Work/SMG sait/public/imgs/hexagon.svg",
 		"/C/Users/Feiro/Desktop/zadachi.txt",
@@ -353,6 +312,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"20px",
+			"button",
 			"important",
 			"flex-start",
 			"start",
@@ -478,9 +439,7 @@
 			"(coordinates+1.0)/2.0",
 			"speed",
 			"coords",
-			"highp",
-			"cubeTexture",
-			"canvas"
+			"highp"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -504,7 +463,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -513,15 +472,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3036,
+						"buffer_size": 2292,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1617,
-								1617
+								1989,
+								1989
 							]
 						],
 						"settings":
@@ -531,36 +490,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 810.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "sass/menu.sass",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 1308,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 17010.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -569,169 +499,24 @@
 			]
 		},
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
-					"buffer": 2,
-					"file": "sass/menu/menu.sass",
+					"buffer": 1,
+					"file": "sass/main.sass",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 439,
+						"buffer_size": 628,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								44,
-								44
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "sass/header/header.sass",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 586,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								190,
-								190
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "sass/header/paisii.sass",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 342,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								296,
-								296
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "sass/menu/menubuttons.sass",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 317,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								47,
-								47
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "sass/menu/homebutton.sass",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 251,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								251,
-								251
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "sass/menu/rightmenu.sass",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 142,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								142,
-								142
+								429,
+								429
 							]
 						],
 						"settings":
@@ -742,7 +527,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -836,7 +621,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 198.0,
+	"side_bar_width": 238.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
