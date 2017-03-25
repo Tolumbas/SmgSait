@@ -77,30 +77,31 @@ div#header {
       flex: 1; } }
 
 div.menubutton {
+  position: relative;
   padding: 10px;
   margin: 0 5px;
   display: inline-block;
-  font-weight: bolder;
-  font-size: 1.2em;
-  color: white;
   border: none;
   border-radius: 10px;
   background-color: darkgreen; }
+  div.menubutton a {
+    font-weight: bolder;
+    font-size: 1.2em;
+    color: white;
+    text-decoration: none; }
   div.menubutton:hover {
     background-color: #e9ab0c;
     cursor: pointer; }
 
-canvas#hamburger {
-  display: none;
-  border: 3px solid black;
-  border-radius: 5px; }
-  canvas#hamburger:hover {
+img#hamburger {
+  display: none; }
+  img#hamburger:hover {
     border-color: #406693; }
 
 @media screen and (max-width: 918px) {
   div.menubutton {
     display: none; }
-  canvas#hamburger {
+  img#hamburger {
     display: block;
     width: 100px;
     height: 100%; }
@@ -109,12 +110,32 @@ canvas#hamburger {
 
 #rightmenu {
   white-space: nowrap;
-  overflow: hidden;
   height: 100%;
   flex: 6;
   display: flex;
   justify-content: flex-end;
   align-items: center; }
+
+#rightmenu .menubutton .submenu {
+  display: none;
+  border-radius: 10px;
+  border: 2px solid white;
+  left: -50%; }
+  #rightmenu .menubutton .submenu a {
+    display: block;
+    margin: 5px 0; }
+    #rightmenu .menubutton .submenu a:before {
+      content: '\2022';
+      margin-right: 5px; }
+    #rightmenu .menubutton .submenu a:hover {
+      color: lightblue; }
+  #rightmenu .menubutton .submenu.show {
+    display: block;
+    padding: 5px 20px;
+    top: 40px;
+    position: absolute;
+    z-index: 1;
+    background-color: darkgreen; }
 
 #menu {
   height: 100px;

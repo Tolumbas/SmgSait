@@ -1,0 +1,21 @@
+#rightmenu .menubutton .submenu
+	display: none;
+	border-radius: 10px;
+	border: 2px solid white;
+	left: -50%;
+	a
+		display: block;
+		margin: 5px 0;
+		&:before
+			content: '\2022'
+			margin-right: 5px;
+		&:hover
+			color: lightblue;
+	&.show
+		display: block;
+		padding: 5px 20px;
+		top: 40px;
+		position: absolute;
+
+		z-index: 1
+		background-color: darkgreen
