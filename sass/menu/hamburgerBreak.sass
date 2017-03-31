@@ -1,9 +1,22 @@
 @media screen and (max-width: 918px)
-	div.menubutton
-		display: none;
-	img#hamburger
+	img#hamburger.shown
 		display: block;
+		float: right;
 		width: 100px;
 		height: 100%;
+
+	div#rightmenu.shown
+		top: 80px
+		flex: auto;
+		z-index: 1;
+		background-color: rgba(255,255,255,0.7)
+		padding:  10px
+		display: inline-block
+		height: initial;
+		align-self: flex-start
 	div#rightmenu
-		flex: 1;
+		display: none
+		white-space: normal;
+	div.menubutton
+		display: block
+		margin-top: 10px

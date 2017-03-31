@@ -4,16 +4,52 @@
 		"selected_items":
 		[
 			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"flex",
+				"flex-wrap"
+			],
+			[
+				"min-",
+				"min-width"
+			],
+			[
+				"dark",
+				"darkergreen"
+			],
+			[
+				"bor",
+				"border-bottom"
+			],
+			[
+				"light",
+				"lightblue"
+			],
+			[
+				"b",
+				"bd\tborder"
+			],
+			[
 				"imp",
 				"important"
 			],
 			[
 				"transition",
 				"transition-duration"
-			],
-			[
-				"font",
-				"font-size"
 			],
 			[
 				"padding",
@@ -68,10 +104,6 @@
 				"align-items"
 			],
 			[
-				"flex",
-				"flex-basis"
-			],
-			[
 				"inline",
 				"inline-block"
 			],
@@ -80,16 +112,8 @@
 				"background-color"
 			],
 			[
-				"light",
-				"lightgray"
-			],
-			[
 				"font-s",
 				"font-size"
-			],
-			[
-				"text",
-				"text-align"
 			],
 			[
 				"get",
@@ -120,22 +144,64 @@
 	"buffers":
 	[
 		{
-			"contents": "<!DOCTYPE html>\n<html>\n<head>\n\t<link rel=\"shortcut icon\" type=\"image/ico\" href=\"imgs/favicon.ico\"/>\n\t<link rel=\"stylesheet\" type=\"text/css\" href=\"dest/css/main.css\">\n\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n\t<link href=\"https://fonts.googleapis.com/css?family=Jura\" rel=\"stylesheet\">\n\t<link  href=\"http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css\" rel=\"stylesheet\"> <!-- 3 KB -->\n\t<title></title>\n</head>\n<body>\n\t<div class=\"container\">\n\t\t<div id=\"header\">\n\t\t\t<div id=\"paisi\">\n\t\t\t\t<img src=\"imgs/Paisi.jpg\">\n\t\t\t</div>\n\t\t\t<div id=\"logo\">\n\t\t\t\t<!-- <img id=\"text\" src=\"imgs/smg_logo_text.png\"> -->\n\t\t\t\t<img src=\"imgs/smg_logo.png\">\n\t\t\t</div>\n\n\t\t</div>\n\t\t<div id=\"menu\">\n\t\t\t<div id=\"home\">\n\t\t\t\tСМГ \"Паисий Хилендарски\"\n\t\t\t</div>\n\t\t\t<div id=\"rightmenu\">\n\t\t\t\t<canvas id=\"hamburger\"></canvas>\n\t\t\t\t<div class=\"menubutton\">Новини</div>\n\t\t\t\t<div class=\"menubutton\">За училището</div>\n\t\t\t\t<div class=\"menubutton\">Обучение</div>\n\t\t\t\t<div class=\"menubutton\">Прием</div>\n\t\t\t\t<div class=\"menubutton\">Състезания</div>\n\t\t\t</div>\n\t\t</div>\n\t\t<div class=\"fotorama\" data-width=\"100%\"  data-ratio=\"776/460\" data-loop=\"true\" data-autoplay=\"true\" data-swipe=\"true\"  data-fit=\"cover\" data-click = \"false\" data-nav=\"false\">\n\t\t\t<div data-img=\"/imgs/smgpano.jpg\">\n\t\t\t\t<div>\n\t\t\t\t\t<h1> СМГ \"Паисий Хилендарски\" навършва годишнина</h1>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"readmorebutton\">Прочети повече!</div>\n\t\t\t</div>\n\t\t\t<div data-img=\"/imgs/slider2.jpg\">\n\t\t\t\t<div>\n\t\t\t\t\t<h1>\n\t\t\t\t\t\tПечелим награда от мобилтел!\n\t\t\t\t\t</h1>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"readmorebutton\">Прочети повече!</div>\n\t\t\t</div>\n\t\t</div>\n\t\t<div class=\"combiner\">\n\t\t\t<div id=\"events\">\n\t\t\t\t<h1>\n\t\t\t\t\tСкорошни събития\n\t\t\t\t</h1>\n\t\t\t\t<div id=\"event\">\n\t\t\t\t\t\n\t\t\t\t</div>\n\n\t\t\t</div>\n\t\t\t<div id=\"reviews\">\n\t\t\t<h1>Отзиви</h1>\n\t\t\t\t<div>\n\t\t\t\t\t<div class=\"text\">СМГ не е само училище за математици, а училище за хора!\n\t\t\t\t\t</div>\n\t\t\t\t</div>\t\t\t\n\t\t\t\t<div>\n\t\t\t\t\t<div class=\"text\">Най-доброто училище!</div>\n\t\t\t\t</div>\t\t\t\n\t\t\t\t<div>\n\t\t\t\t\t<div class=\"text\">Любим учител - Бахчеванов</div>\n\t\t\t\t</div> \n\t\t\t</div>\n\t\t</div>\n\t</div>\n\t<script src=\"libraries/jquery.min.js\"></script>\n\t<script src=\"libraries/jquery.sticky-kit.min.js\"></script>\n\t<script src=\"libraries/fotorama.js\"></script>\n\t<script src=\"dest/all.js\"></script>\n</body>\n</html>",
 			"file": "public/index.html",
-			"file_size": 2621,
-			"file_write_time": 131344958895988129,
 			"settings":
 			{
-				"buffer_size": 2292,
+				"buffer_size": 4042,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "sass/main.sass",
+			"file": "js/test.js",
 			"settings":
 			{
-				"buffer_size": 628,
+				"buffer_size": 203,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "sass/menu/hamburgerBreak.sass",
+			"settings":
+			{
+				"buffer_size": 160,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "sass/menu/rightmenu.sass",
+			"settings":
+			{
+				"buffer_size": 123,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "sass/menu/menubuttons.sass",
+			"settings":
+			{
+				"buffer_size": 367,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "sass/menu/submenu.sass",
+			"settings":
+			{
+				"buffer_size": 356,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "sass/menu/menu.sass",
+			"settings":
+			{
+				"buffer_size": 487,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -199,10 +265,16 @@
 	[
 		"/C/Users/Feiro/Desktop/Work/SMG sait",
 		"/C/Users/Feiro/Desktop/Work/SMG sait/js",
-		"/C/Users/Feiro/Desktop/Work/SMG sait/sass"
+		"/C/Users/Feiro/Desktop/Work/SMG sait/sass",
+		"/C/Users/Feiro/Desktop/Work/SMG sait/sass/menu"
 	],
 	"file_history":
 	[
+		"/C/Users/Feiro/Desktop/Work/SMG sait/sass/menu/hamburger.sass",
+		"/C/Users/Feiro/Desktop/Work/SMG sait/sass/main.sass",
+		"/C/Users/Feiro/Desktop/Work/SMG sait/sass/calendar/calendar.sass",
+		"/C/Users/Feiro/Desktop/Work/SMG sait/sass/reviews.sass",
+		"/C/Users/Feiro/Desktop/Work/SMG sait/sass/menu/menu.sass",
 		"/C/Users/Feiro/Desktop/Work/SMG sait/gulpfile.js",
 		"/C/Users/Feiro/Desktop/Work/SMG sait/sass/slider/header.sass",
 		"/C/Users/Feiro/Desktop/Work/SMG sait/sass/slider/readmorebutton.sass",
@@ -211,15 +283,11 @@
 		"/C/Users/Feiro/Desktop/Work/SMG sait/sass/menu/rightmenu.sass",
 		"/C/Users/Feiro/Desktop/Work/SMG sait/sass/menu/homebutton.sass",
 		"/C/Users/Feiro/Desktop/Work/SMG sait/sass/menu/menubuttons.sass",
-		"/C/Users/Feiro/Desktop/Work/SMG sait/sass/menu/menu.sass",
 		"/C/Users/Feiro/Desktop/Work/SMG sait/sass/header/header.sass",
 		"/C/Users/Feiro/Desktop/Work/SMG sait/sass/header/paisii.sass",
-		"/C/Users/Feiro/Desktop/Work/SMG sait/sass/menu/hamburger.sass",
 		"/C/Users/Feiro/Desktop/Work/SMG sait/sass/menu/hamburgerBreak.sass",
-		"/C/Users/Feiro/Desktop/Work/SMG sait/sass/main.sass",
 		"/C/Users/Feiro/Desktop/Work/SMG sait/sass/menu.sass",
 		"/C/Users/Feiro/Desktop/Work/SMG sait/sass/history.sass",
-		"/C/Users/Feiro/Desktop/Work/SMG sait/sass/reviews.sass",
 		"/C/Users/Feiro/Desktop/Work/SMG sait/sass/header/logo.sass",
 		"/C/Users/Feiro/Desktop/Work/SMG sait/sass/header.sass",
 		"/C/Users/Feiro/Downloads/Hidden.Figures.2016.DVDSCR.XVID-FrangoAssado/iNFO.nfo",
@@ -312,6 +380,15 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Бюджет",
+			"История",
+			"<a>",
+			"span",
+			"canvas",
+			"</span>",
+			"duration",
+			"right",
+			"events",
 			"20px",
 			"button",
 			"important",
@@ -430,16 +507,7 @@
 			"1.0",
 			"vec3",
 			" vec3",
-			",0.0)",
-			"horisontal",
-			"right",
-			"left",
-			"vertical",
-			"midcoords",
-			"(coordinates+1.0)/2.0",
-			"speed",
-			"coords",
-			"highp"
+			",0.0)"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -472,15 +540,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2292,
+						"buffer_size": 4042,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1989,
-								1989
+								928,
+								928
 							]
 						],
 						"settings":
@@ -490,33 +558,147 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 17010.0,
+						"translation.y": 666.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
+				},
 				{
 					"buffer": 1,
-					"file": "sass/main.sass",
+					"file": "js/test.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 628,
+						"buffer_size": 203,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								429,
-								429
+								182,
+								182
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "sass/menu/hamburgerBreak.sass",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 160,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								102,
+								102
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "sass/menu/rightmenu.sass",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 123,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								32,
+								32
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "sass/menu/menubuttons.sass",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 367,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								65,
+								65
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "sass/menu/submenu.sass",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 356,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								177,
+								177
 							]
 						],
 						"settings":
@@ -528,6 +710,35 @@
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "sass/menu/menu.sass",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 487,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								242,
+								242
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
 					"type": "text"
 				}
 			]
@@ -561,7 +772,7 @@
 		"cols":
 		[
 			0.0,
-			0.459760273973,
+			0.535022572974,
 			1.0
 		],
 		"rows":
@@ -621,7 +832,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 238.0,
+	"side_bar_width": 200.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
