@@ -12,25 +12,25 @@ gulp.task('babeldev',()=>{
 	    	 .on('error', console.error.bind(console))
 		    .pipe(concat('all.js'))
         .pipe(sourcemaps.write())
-        .pipe(gulp.dest('./public/dest/'))
+        .pipe(gulp.dest('./docs/dest/'))
         .pipe(connect.reload());
 });
 
 gulp.task('html', function () {
-  gulp.src(['./html/*.html','./public/*.html'])
+  gulp.src(['./html/*.html','./docs/*.html'])
     .pipe(connect.reload());
 });
 
 gulp.task('sass', ()=>{
 	return gulp.src('./sass/main.sass')
 		.pipe(sass().on('error', sass.logError))
-		.pipe(gulp.dest('./public/dest/css'))
+		.pipe(gulp.dest('./docs/dest/css'))
 		.pipe(connect.reload());;
 });
 
 gulp.task('server',()=>{
 	connect.server({
-		root:"./public",
+		root:"./docs",
 		livereload:true
 	});
 });
@@ -38,7 +38,7 @@ gulp.task('server',()=>{
 gulp.task('watch', ()=> {
   gulp.watch(['./js/*.js'], ['babeldev']);
   gulp.watch(['./sass/**/*.sass'], ['sass']);
-  gulp.watch(['./html/*.html','./public/*.html'], ['html']);
+  gulp.watch(['./html/*.html','./docs/*.html'], ['html']);
 });
 
 gulp.task("default",['server','watch']);

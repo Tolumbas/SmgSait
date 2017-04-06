@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"cli",
+				"children"
+			],
+			[
+				"menu",
+				"menubutton"
+			],
+			[
 				"mar",
 				"margin-top"
 			],
@@ -143,69 +151,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "public/index.html",
-			"settings":
-			{
-				"buffer_size": 4042,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "js/test.js",
-			"settings":
-			{
-				"buffer_size": 203,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "sass/menu/hamburgerBreak.sass",
-			"settings":
-			{
-				"buffer_size": 160,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "sass/menu/rightmenu.sass",
-			"settings":
-			{
-				"buffer_size": 123,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "sass/menu/menubuttons.sass",
-			"settings":
-			{
-				"buffer_size": 367,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "sass/menu/submenu.sass",
-			"settings":
-			{
-				"buffer_size": 356,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "sass/menu/menu.sass",
-			"settings":
-			{
-				"buffer_size": 487,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -265,33 +210,35 @@
 	[
 		"/C/Users/Feiro/Desktop/Work/SMG sait",
 		"/C/Users/Feiro/Desktop/Work/SMG sait/js",
-		"/C/Users/Feiro/Desktop/Work/SMG sait/sass",
-		"/C/Users/Feiro/Desktop/Work/SMG sait/sass/menu"
+		"/C/Users/Feiro/Desktop/Work/SMG sait/sass"
 	],
 	"file_history":
 	[
-		"/C/Users/Feiro/Desktop/Work/SMG sait/sass/menu/hamburger.sass",
+		"/C/Users/Feiro/Desktop/Work/SMG sait/sass/menu/hamburgerBreak.sass",
+		"/C/Users/Feiro/Desktop/Work/SMG sait/js/test.js",
+		"/C/Users/Feiro/Desktop/Work/SMG sait/sass/menu/menubuttons.sass",
 		"/C/Users/Feiro/Desktop/Work/SMG sait/sass/main.sass",
+		"/C/Users/Feiro/Desktop/Work/SMG sait/sass/menu/menu.sass",
+		"/C/Users/Feiro/Desktop/Work/SMG sait/sass/menu/homebutton.sass",
+		"/C/Users/Feiro/Desktop/Work/SMG sait/sass/menu/rightmenu.sass",
+		"/C/Users/Feiro/Desktop/Work/SMG sait/public/index.html",
+		"/C/Users/Feiro/Desktop/Work/SMG sait/sass/menu/hamburger.sass",
+		"/C/Users/Feiro/Desktop/Work/SMG sait/public/dest/css/main.css",
+		"/C/Users/Feiro/Desktop/Work/SMG sait/sass/menu/submenu.sass",
 		"/C/Users/Feiro/Desktop/Work/SMG sait/sass/calendar/calendar.sass",
 		"/C/Users/Feiro/Desktop/Work/SMG sait/sass/reviews.sass",
-		"/C/Users/Feiro/Desktop/Work/SMG sait/sass/menu/menu.sass",
 		"/C/Users/Feiro/Desktop/Work/SMG sait/gulpfile.js",
 		"/C/Users/Feiro/Desktop/Work/SMG sait/sass/slider/header.sass",
 		"/C/Users/Feiro/Desktop/Work/SMG sait/sass/slider/readmorebutton.sass",
 		"/C/Users/Feiro/Desktop/Work/SMG sait/sass/slider/slider.sass",
 		"/C/Users/Feiro/Desktop/Work/SMG sait/sass/slider.sass",
-		"/C/Users/Feiro/Desktop/Work/SMG sait/sass/menu/rightmenu.sass",
-		"/C/Users/Feiro/Desktop/Work/SMG sait/sass/menu/homebutton.sass",
-		"/C/Users/Feiro/Desktop/Work/SMG sait/sass/menu/menubuttons.sass",
 		"/C/Users/Feiro/Desktop/Work/SMG sait/sass/header/header.sass",
 		"/C/Users/Feiro/Desktop/Work/SMG sait/sass/header/paisii.sass",
-		"/C/Users/Feiro/Desktop/Work/SMG sait/sass/menu/hamburgerBreak.sass",
 		"/C/Users/Feiro/Desktop/Work/SMG sait/sass/menu.sass",
 		"/C/Users/Feiro/Desktop/Work/SMG sait/sass/history.sass",
 		"/C/Users/Feiro/Desktop/Work/SMG sait/sass/header/logo.sass",
 		"/C/Users/Feiro/Desktop/Work/SMG sait/sass/header.sass",
 		"/C/Users/Feiro/Downloads/Hidden.Figures.2016.DVDSCR.XVID-FrangoAssado/iNFO.nfo",
-		"/C/Users/Feiro/Desktop/Work/SMG sait/js/test.js",
 		"/C/Users/Feiro/Desktop/Work/SMG sait/public/imgs/hexagon.svg",
 		"/C/Users/Feiro/Desktop/zadachi.txt",
 		"/C/Users/Feiro/dev.pem",
@@ -307,12 +254,10 @@
 		"/C/Users/Feiro/Desktop/Work/Cube Maze/three.min.js",
 		"/C/Users/Feiro/Desktop/Work/SMG sait/sublime.sublime-workspace",
 		"/C/Users/Feiro/Desktop/Work/SMG sait/package.json",
-		"/C/Users/Feiro/Desktop/Work/SMG sait/public/index.html",
 		"/C/Users/Feiro/Desktop/Work/SMG sait/sass/header.scss",
 		"/C/Users/Feiro/Desktop/Work/SMG sait/sass/main.scss",
 		"/C/Users/Feiro/Desktop/Work/SMG sait/public/dest/all.js",
 		"/C/Users/Feiro/Desktop/Work/SMG sait/html/index.html",
-		"/C/Users/Feiro/Desktop/Work/SMG sait/public/dest/css/main.css",
 		"/C/Users/Feiro/Desktop/Work/SMG sait/index.html",
 		"/C/Users/Feiro/Desktop/Work/Cube Maze/utils.js",
 		"/C/Users/Feiro/Desktop/Work/WebGL particles/javascript.js",
@@ -380,6 +325,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"rightmenu",
 			"Бюджет",
 			"История",
 			"<a>",
@@ -506,8 +452,7 @@
 			"draw",
 			"1.0",
 			"vec3",
-			" vec3",
-			",0.0)"
+			" vec3"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -531,216 +476,13 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "public/index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4042,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								928,
-								928
-							]
-						],
-						"settings":
-						{
-							"spell_check": true,
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 666.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "js/test.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 203,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								182,
-								182
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				}
 			]
 		},
 		{
-			"selected": 3,
 			"sheets":
 			[
-				{
-					"buffer": 2,
-					"file": "sass/menu/hamburgerBreak.sass",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 160,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								102,
-								102
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "sass/menu/rightmenu.sass",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 123,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								32,
-								32
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "sass/menu/menubuttons.sass",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 367,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								65,
-								65
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "sass/menu/submenu.sass",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 356,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								177,
-								177
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "sass/menu/menu.sass",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 487,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								242,
-								242
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -772,7 +514,7 @@
 		"cols":
 		[
 			0.0,
-			0.535022572974,
+			0.308747855918,
 			1.0
 		],
 		"rows":
@@ -824,7 +566,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},
