@@ -5,6 +5,7 @@ $("#menu").stick_in_parent();
 $(window).click(e=>{
 	$(".submenu").removeClass("show");
 	$("#rightmenu").removeClass("shown");
+	$('#hamburger').attr("src","imgs/hamburger.svg");
 })
 
 $(".menubutton").click(function (e){
@@ -19,6 +20,10 @@ $(".menubutton").click(function (e){
 
 $("#hamburger").click(e=>{
 	$("#rightmenu").toggleClass("shown");
+	if ($("#rightmenu").hasClass("shown"))
+		$('#hamburger').attr("src","imgs/hamburgerClicked.svg");
+	else
+			$('#hamburger').attr("src","imgs/hamburger.svg");
 	e.stopPropagation();
 
 })

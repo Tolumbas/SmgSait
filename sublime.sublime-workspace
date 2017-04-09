@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"flex",
+				"flex-shrink"
+			],
+			[
 				"cli",
 				"children"
 			],
@@ -26,10 +30,6 @@
 			[
 				"max",
 				"max-width"
-			],
-			[
-				"flex",
-				"flex-wrap"
 			],
 			[
 				"min-",
@@ -152,19 +152,37 @@
 	"buffers":
 	[
 		{
-			"file": "gulpfile.js",
+			"file": "docs/index.html",
 			"settings":
 			{
-				"buffer_size": 1187,
+				"buffer_size": 4058,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "docs/index.html",
+			"file": "sass/menu/hamburgerBreak.sass",
 			"settings":
 			{
-				"buffer_size": 4060,
+				"buffer_size": 504,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "sass/menu/menu.sass",
+			"settings":
+			{
+				"buffer_size": 508,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/test.js",
+			"settings":
+			{
+				"buffer_size": 502,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -227,12 +245,17 @@
 	"expanded_folders":
 	[
 		"/C/Users/Feiro/Desktop/Work/SMG sait",
-		"/C/Users/Feiro/Desktop/Work/SMG sait/docs"
+		"/C/Users/Feiro/Desktop/Work/SMG sait/docs",
+		"/C/Users/Feiro/Desktop/Work/SMG sait/js",
+		"/C/Users/Feiro/Desktop/Work/SMG sait/sass",
+		"/C/Users/Feiro/Desktop/Work/SMG sait/sass/menu"
 	],
 	"file_history":
 	[
-		"/C/Users/Feiro/Desktop/Work/SMG sait/sass/menu/hamburgerBreak.sass",
 		"/C/Users/Feiro/Desktop/Work/SMG sait/js/test.js",
+		"/C/Users/Feiro/Desktop/Work/SMG sait/gulpfile.js",
+		"/C/Users/Feiro/Desktop/Work/tolumbas.github.io/index.html",
+		"/C/Users/Feiro/Desktop/Work/SMG sait/sass/menu/hamburgerBreak.sass",
 		"/C/Users/Feiro/Desktop/Work/SMG sait/sass/menu/menubuttons.sass",
 		"/C/Users/Feiro/Desktop/Work/SMG sait/sass/main.sass",
 		"/C/Users/Feiro/Desktop/Work/SMG sait/sass/menu/menu.sass",
@@ -244,7 +267,6 @@
 		"/C/Users/Feiro/Desktop/Work/SMG sait/sass/menu/submenu.sass",
 		"/C/Users/Feiro/Desktop/Work/SMG sait/sass/calendar/calendar.sass",
 		"/C/Users/Feiro/Desktop/Work/SMG sait/sass/reviews.sass",
-		"/C/Users/Feiro/Desktop/Work/SMG sait/gulpfile.js",
 		"/C/Users/Feiro/Desktop/Work/SMG sait/sass/slider/header.sass",
 		"/C/Users/Feiro/Desktop/Work/SMG sait/sass/slider/readmorebutton.sass",
 		"/C/Users/Feiro/Desktop/Work/SMG sait/sass/slider/slider.sass",
@@ -493,50 +515,65 @@
 	"groups":
 	[
 		{
-			"sheets":
-			[
-			]
-		},
-		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "gulpfile.js",
+					"file": "docs/index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1187,
+						"buffer_size": 4058,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								504,
-								504
-							],
-							[
-								619,
-								619
-							],
-							[
-								793,
-								793
-							],
-							[
-								896,
-								896
-							],
-							[
-								1079,
-								1079
+								41,
+								41
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "sass/menu/hamburgerBreak.sass",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 504,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								237,
+								237
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -546,32 +583,61 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "docs/index.html",
+					"buffer": 2,
+					"file": "sass/menu/menu.sass",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4060,
+						"buffer_size": 508,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								662,
-								662
+								289,
+								289
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1188.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "js/test.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 502,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								407,
+								407
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
@@ -605,7 +671,7 @@
 		"cols":
 		[
 			0.0,
-			0.308747855918,
+			0.436535162951,
 			1.0
 		],
 		"rows":
@@ -657,7 +723,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},
