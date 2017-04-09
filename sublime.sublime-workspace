@@ -151,6 +151,24 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "gulpfile.js",
+			"settings":
+			{
+				"buffer_size": 1187,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "docs/index.html",
+			"settings":
+			{
+				"buffer_size": 4060,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -209,8 +227,7 @@
 	"expanded_folders":
 	[
 		"/C/Users/Feiro/Desktop/Work/SMG sait",
-		"/C/Users/Feiro/Desktop/Work/SMG sait/js",
-		"/C/Users/Feiro/Desktop/Work/SMG sait/sass"
+		"/C/Users/Feiro/Desktop/Work/SMG sait/docs"
 	],
 	"file_history":
 	[
@@ -325,6 +342,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"public",
 			"rightmenu",
 			"Бюджет",
 			"История",
@@ -451,8 +469,7 @@
 			"3.0",
 			"draw",
 			"1.0",
-			"vec3",
-			" vec3"
+			"vec3"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -481,8 +498,82 @@
 			]
 		},
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "gulpfile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1187,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								504,
+								504
+							],
+							[
+								619,
+								619
+							],
+							[
+								793,
+								793
+							],
+							[
+								896,
+								896
+							],
+							[
+								1079,
+								1079
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "docs/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4060,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								662,
+								662
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1188.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],

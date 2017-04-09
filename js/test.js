@@ -1,6 +1,5 @@
 
 //Floating menu
-
 $("#menu").stick_in_parent();
 
 $(window).click(e=>{
