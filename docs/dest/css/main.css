@@ -108,6 +108,9 @@ img#hamburger {
   div#rightmenu.shown {
     top: 80px;
     flex: auto;
+    position: absolute;
+    right: 0;
+    flex-shrink: 1;
     z-index: 1;
     background-color: rgba(255, 255, 255, 0.7);
     padding: 10px;
@@ -119,7 +122,9 @@ img#hamburger {
     white-space: normal; }
   div.menubutton {
     display: block;
-    margin-top: 10px; } }
+    margin-top: 10px; }
+  div#home {
+    white-space: normal; } }
 
 #rightmenu {
   white-space: nowrap;
@@ -153,6 +158,7 @@ img#hamburger {
 
 #menu {
   height: 100px;
+  position: relative;
   background-color: #f0e3af;
   border-bottom: 5px solid gray;
   justify-content: space-between;

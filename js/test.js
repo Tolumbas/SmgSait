@@ -5,7 +5,6 @@ $("#menu").stick_in_parent();
 $(window).click(e=>{
 	$(".submenu").removeClass("show");
 	$("#rightmenu").removeClass("shown");
-	$("#hamburger").addClass("shown");
 })
 
 $(".menubutton").click(function (e){
@@ -20,7 +19,6 @@ $(".menubutton").click(function (e){
 
 $("#hamburger").click(e=>{
 	$("#rightmenu").toggleClass("shown");
-	$("#hamburger").toggleClass("shown");
 	e.stopPropagation();
 
 })
