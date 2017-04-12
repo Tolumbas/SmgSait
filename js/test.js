@@ -1,4 +1,8 @@
 
+$("#home").click(e=>{
+	document.location = "/";
+})
+
 //Floating menu
 $("#menu").stick_in_parent();
 
