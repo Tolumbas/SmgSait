@@ -206,11 +206,11 @@ div.readmorebutton {
       right: 10px;
       bottom: 10px; } }
 
-.fotorama {
+.fotorama.main {
   padding: 0 !important;
   background-color: #FFD; }
   @media screen and (min-width: 1300px) {
-    .fotorama {
+    .fotorama.main {
       padding: 0 10% 0 10% !important; } }
 
 #pageflip {
